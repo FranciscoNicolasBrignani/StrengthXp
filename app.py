@@ -1,14 +1,15 @@
 import pandas as pd
 import numpy as np
+import gspread
+
+gc = gspread.service_account(filename='credencial.json')
 
 sheet_id = "1qucC77cgO43_20nhHXfvckuhOcAgeuaQL5hzlkSL1rE"
-sheet_name = "Rutina"
+sh = gc.open_by_key(sheet_id)
+worksheet = sh.worksheet("Rutina")
 
-url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/gviz/tq?tqx=out:csv&sheet={sheet_name}"
-
-
-
-df = pd.read_csv(url)
+datos = worksheet.get_all_records()
+df = pd.DataFrame(datos)
 
 df.drop_duplicates(inplace=True) #elimina las celdas duplicadas
 df.dropna(how='all', inplace=True) #Elimina las filas donde no haya datos en ningun atributo

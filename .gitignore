@@ -1,0 +1,9 @@
+credenciales.json
+
+# Entornos virtuales
+venv/
+env/
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
