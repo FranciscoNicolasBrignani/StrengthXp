@@ -80,7 +80,18 @@ EJERCICIOS_MAP = {
     "mariposa": {"musculo_principal": "Pecho", "musculo_secundario": "Hombro"},
     "curl de bíceps": {"musculo_principal": "Bíceps", "musculo_secundario": "Braquial"},
     "martillo": {"musculo_principal": "Bíceps", "musculo_secundario": "Braquiorradial"},
-    "sentadillas": {"musculo_principal": "Cuadriceps", "musculo_secundario": "Glúteo"}
+    "sentadillas": {"musculo_principal": "Cuádriceps", "musculo_secundario": "Glúteo"},
+    "prensa": {"musculo_principal": "Cuádriceps", "musculo_secundario": "Glúteo"},
+    "gemelos": {"musculo_principal": "Gemelos", "musculo_secundario": "Sóleo"},
+    "press militar": {"musculo_principal": "Hombros", "musculo_secundario": "Tríceps"},
+    "elevación lateral": {"musculo_principal": "Hombros", "musculo_secundario": "Trapecio"},
+    "elevación frontal": {"musculo_principal": "Hombros", "musculo_secundario": "Pecho"},
+    "jalon al pecho": {"musculo_principal": "Espalda", "musculo_secundario": "Bíceps"},
+    "remo": {"musculo_principal": "Espalda", "musculo_secundario": "Bíceps"},
+    "jalon trasnuca": {"musculo_principal": "Espalda", "musculo_secundario": "Bíceps"},
+    "press francés": {"musculo_principal": "Tríceps", "musculo_secundario": "Antebrazo"},
+    "polea con soga": {"musculo_principal": "Tríceps", "musculo_secundario": "Antebrazo"},
+    "fondos": {"musculo_principal": "Tríceps", "musculo_secundario": "Pecho"}
 }
 
 df['ejercicio_clean'] = df['Ejercicio'].astype(str).str.lower().str.strip()
