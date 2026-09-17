@@ -31,7 +31,7 @@ El pipeline de datos sigue el siguiente flujo de procesamiento:
 <img width="1112" height="793" alt="2" src="https://github.com/user-attachments/assets/fc526b03-1f63-4a2c-93e1-50c6423f458a" />
 
 ---
-## 🚨 Importante 🚨:
+## 🚨 Importante 🚨
 Toda la información y métricas mostradas tienen fines estrictamente demostrativos e informativos. No constituyen asesoramiento médico ni entrenamiento 
 profesional. Consulta con un profesional de la salud o del deporte calificado antes de iniciar o modificar cualquier programa de entrenamiento.
 
