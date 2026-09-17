@@ -2,7 +2,7 @@
 
 Este proyecto analiza el rendimiento físico y la progresión de fuerza a partir de registros diarios de entrenamiento. Su objetivo principal es eliminar el entrenamiento "a ciegas", permitiendo tomar decisiones basadas en datos para optimizar el rendimiento, verificar la progresión y asegurar un adecuado equilibrio muscular.
 
-[DashBoard](https://datastudio.google.com/u/0/reporting/09ee3103-5149-4e5f-be19-edf85b062a61/page/lsx8F)
+<a href="https://datastudio.google.com/u/0/reporting/09ee3103-5149-4e5f-be19-edf85b062a61/page/lsx8F" target="_blank" rel="noopener noreferrer">DashBoard</a>
 
 ---
 
